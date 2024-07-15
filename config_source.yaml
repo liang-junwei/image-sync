@@ -1,6 +1,6 @@
 auth:
-  registry.cn-hangzhou.aliyuncs.com:
+  artifactory.goldnet21.com:32443:
     username: $USERNAME
     password: $PASSWORD
 images:
-    docker.io/library/python:3.11.3-slim: registry.cn-hangzhou.aliyuncs.com/liangjw/python:3.11.3-slim
+    docker.io/library/python:3.11.3-slim: artifactory.goldnet21.com:32443/library/python:3.11.3-slim
