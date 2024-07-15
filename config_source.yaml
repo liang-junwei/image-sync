@@ -1,6 +1,6 @@
 auth:
-  registry.cn-shenzhen.aliyuncs.com:
+  registry.cn-hangzhou.aliyuncs.com:
     username: $USERNAME
     password: $PASSWORD
 images:
-    docker.io/library/python: liangjw/python
+    docker.io/library/python:3.11-slim: liangjw/python
